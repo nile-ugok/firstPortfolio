@@ -1,0 +1,171 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  float: left;
+  width: 35%;
+  height: 500px;
+}
+
+.leftbar {
+  display: flex;
+}
+
+.headerlefticon {
+  background-color: #142646;
+  width: 55%;
+  height: 500px;
+}
+
+.headtopicon {
+  width: 50px;
+  padding-left: 25%;
+  padding-top: 50px;
+}
+
+.paddingforicon {
+  padding-top: 275px;
+}
+
+.headbottomicon {
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  padding-left: 35%;
+  padding-bottom: 25px;
+}
+
+.headpattern {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 65% 75%;
+}
+
+nav {
+  background-color: #f4fffc;
+  float: right;
+  width: 65%;
+  height: 500px;
+  position: relative;
+}
+
+nav img {
+  width: 500px;
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+  margin-bottom: 0;
+}
+
+article {
+  width: 100%;
+  height: 1150px;
+  background-color: #f4fffc;
+  clear: both;
+  margin-bottom: 0%;
+  padding-top: 100px;
+}
+
+.box1 {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 {
+  width: 900px;
+}
+
+.other {
+  width: 200px;
+}
+
+.work {
+  width: 450px;
+}
+
+.allbook img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.about {
+  width: 350px;
+}
+
+.book1 {
+  width: 250px;
+}
+
+.main {
+  position: relative;
+}
+
+.otherbook {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+
+.workbook {
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  margin: 45px 0px 45px 0px;
+}
+
+.aboutbook {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.book1book {
+  position: absolute;
+  top: 75%;
+  left: 60%;
+}
+
+a {
+  transition: all 5s;
+}
+
+div a:hover {
+  transform: scale(5, 5);
+}
+
+footer {
+  background-color: #142646;
+  height: 100px;
+  color: #f4fffc;
+  margin-top: 0px;
+}
+
+.footline {
+  padding-top: 25px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+}
+
+.barstyle {
+  color: #142646;
+  font-weight: 700;
+  font-size: xx-large;
+  -webkit-text-stroke: 0.5px #fffffe;
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
